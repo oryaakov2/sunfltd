@@ -11,6 +11,8 @@ export interface City {
   description: string;
   image: string;
   coords: Coordinates;
+  favorite?: boolean;
+  distance?: number;
 }
 
 export interface CitiesData {

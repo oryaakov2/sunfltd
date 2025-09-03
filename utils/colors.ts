@@ -14,7 +14,8 @@ const colors = {
   blue: '#007AFF',
   blueLight: '#e3f2fd',
   blueDark: '#1976d2',
-  red: '#dc3545',
+  green : '#42E2B8',
+  red: '#DC3545',
   overlay: 'rgba(0, 0, 0, 0.4)',
 };
 

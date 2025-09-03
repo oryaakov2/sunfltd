@@ -1,4 +1,5 @@
 import { StatusBar, useColorScheme } from 'react-native';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import HomeScreen from './screens/HomeScreen';
 import { City, Coordinates, Units } from './types';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -16,7 +17,7 @@ const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
-    <>
+    <GestureHandlerRootView style={{ flex: 1 }}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <NavigationContainer>
         <Stack.Navigator initialRouteName="Home">
@@ -24,7 +25,7 @@ const App = () => {
           <Stack.Screen name="CityDetails" component={CityDetails} />
         </Stack.Navigator>
       </NavigationContainer>
-    </>
+    </GestureHandlerRootView>
   );
 }
 

@@ -253,18 +253,6 @@
       }
     },
     {
-      "name": "Rio de Janeiro",
-      "continent": "South America",
-      "active": true,
-      "country": "Brazil",
-      "description": "Rio de Janeiro is a city in Brazil and is known for its breathtaking landscapes and the famous Christ the Redeemer statue.",
-      "image": "https://picsum.photos/id/381/500/500",
-      "coords": {
-        "lat": -22.906847,
-        "lng": -43.172897
-      }
-    },
-    {
       "name": "Bangkok",
       "continent": "Asia",
       "active": true,

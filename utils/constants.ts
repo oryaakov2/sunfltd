@@ -6,3 +6,4 @@ export const WEATHER_API_KEY = 'dceda80107f8fd0276a9c7cc55927df9';
 export const EARTH_RADIUS_KILOMETER = 6378;
 
 export const SCREEN_WIDTH = Dimensions.get("window").width;
+export const SCREEN_HEIGHT = Dimensions.get("window").height;
